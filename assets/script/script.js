@@ -13,14 +13,6 @@ btnResume.addEventListener("click", function () {
   alert("Sorry😅");
 });
 
-document.getElementById("nameDisplay").innerText = localStorage.getItem("name");
-document.getElementById("roleDisplay").innerText = localStorage.getItem("role");
-document.getElementById("availabilityDisplay").innerText = localStorage.getItem("availability");
-document.getElementById("ageDisplay").innerText = localStorage.getItem("age");
-document.getElementById("locationDisplay").innerText = localStorage.getItem("location");
-document.getElementById("yoeDisplay").innerText = localStorage.getItem("yoe");
-document.getElementById("emailDisplay").innerText = localStorage.getItem("email");
-
 function updateProfile(event) {
   event.preventDefault();
 
